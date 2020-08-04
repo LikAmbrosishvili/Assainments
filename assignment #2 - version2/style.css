@@ -1,0 +1,225 @@
+body{
+     align-content: center;
+      background-color:white;
+      font-family: 'Nunito';
+      opacity:92%;   
+}
+
+.rectangle1 {
+      position:absolute; 
+      border-top-left-radius: 6px;
+      border-top-right-radius: 6px;
+      height: 55px;
+      width: 677px;
+      background-color: #5265e8 ;
+
+} 
+
+.cross{
+      margin-left:645px; 
+      top:20px;    
+      position: absolute;
+      background-color: #5265e8 ;
+      border:none;
+      cursor: pointer;
+ 
+     
+}
+ h1{
+      position: absolute;
+      text-align:center;
+      color:white;
+      font-size:18px;
+      width:677px;
+      padding-top:5px;
+      font-weight:30px;
+     
+ 
+}
+
+.rectangle {
+      margin-right:50%;
+      margin-left:10%;
+      margin-top:16.14%;
+      border-bottom-left-radius: 5px;
+      border-bottom-right-radius: 5px;
+      margin-left:10%;
+      height: 460px;
+      width: 677px;
+      position: relative;
+      box-shadow: 1px 15px 10px  gainsboro;
+}
+
+.search-box {
+      position: absolute;
+      top:81px;
+      left:22px; 
+      right:18px;
+      height:52px;
+      width:637px;
+}
+.search-btn{
+      position:absolute;
+      border:none;
+      color:black;
+      width:48px;
+      height:46px;
+      border-radius:50%;
+      background:white;
+      margin-left:5px;
+      margin-top:1px;
+      cursor: pointer;
+}
+.search-btn img{
+      cursor:pointer;
+}
+input {
+     
+      border:1px solid lightgrey;
+      outline:none;
+      border-radius: 50px;
+      width: 570px;
+      height: 45px;
+      font-size:18px;
+      text-decoration: none;
+ }
+.search-txt {
+      position: absolute;
+      color:black;
+      font-size:16px;
+      transition:0.4s;
+      line-height:40px;
+      padding-left:60px;
+}
+
+
+
+h2{
+      position: absolute;
+      padding-left:22px;
+      font-size:16px;
+      padding-bottom:50px;
+      color:#4a4a4a;
+      padding-top:135px;
+      font-weight:100px;
+}
+
+.rectangle p{
+      margin-top:100px;
+      margin-left:22px;
+      color:#4a4a4a;
+      font-size:35px;   
+}
+
+.button{
+      border:none;
+      text-align: center;
+      height:38px;
+      width:137px;
+      font-family: 'Nunito';
+      color:#9195b1;
+      background-color:transparent;
+
+}
+   .button:hover {
+      background-color:#5265e8;
+      border: none;
+      color: white;
+      text-align: center;
+      text-decoration: none;
+      font-size: 15px;
+      cursor: pointer;
+      height:38px;
+      width:137px;
+      border-radius: 20px;
+
+   }
+
+
+.box3{
+      color:#2eca17;
+   
+}
+  
+.account1, .account2, .account3, .account4, .account5 { 
+      text-align:left;
+      color:#9195b1;
+      background-color:transparent;
+      font-size:16px;
+      font-weight: 10;
+      opacity: 92%;
+}
+
+
+
+.box1{
+      border-top-left-radius: 27px;
+      border-bottom-left-radius:27px;
+      height:48px;
+      width:39px;    
+}
+.box1 img{
+      border-radius:50%;
+      height:36px;
+      width:36px;
+      border: Inside, 1px ;
+      margin-left:7px;  
+} 
+.box2{
+      height:48px;
+      width:180px;
+}
+.box3{
+      height:48px;
+      width:100px;
+}
+.box4{
+      height:48px;
+      width:151px;
+}
+.box5{
+      height:48px;
+      width:110px;
+      border-top-right-radius: 27px;
+      border-bottom-right-radius:27px;
+}
+
+.account2 .box3 {
+      color:#9195b1;  
+}
+.account2{
+      color: #bac4de;
+      opacity:65%;
+}
+.account1:hover, .account2:hover, .account3:hover,.account4:hover,.account5:hover {
+     
+      box-shadow: 0px 10px #061058 rgb(6,16,88, 0.07);
+      color: #5265e8;
+      border:outset 1px;
+      border-radius:20px;
+      background-color:#ffff;
+      box-shadow: 0px 10px 30px 0px rgba(6, 16, 88, 0.07);
+      opacity:100%;
+
+   
+}
+
+
+
+.button .vers2 { 
+      display: none; 
+}
+button:hover .vers1 { 
+      display: none; 
+}
+button:hover .vers2 {
+      display: inline;
+      }
+
+.wrapper {
+
+      padding-top:186px;
+      padding-left:10px;
+      padding-right:21px;
+
+}
